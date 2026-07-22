@@ -1,0 +1,30 @@
+# Environment / secrets
+.env
+.env.*
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Node (if any project uses it)
+node_modules/
+dist/
+
+# OS/editor
+.DS_Store
+.vscode/*
+!.vscode/settings.json
+*.log
+
+# Model artifacts / large files
+*.bin
+*.safetensors
+*.gguf
+checkpoints/
+data/raw/
